@@ -39,5 +39,15 @@ namespace Assignment_Session02_AdvencedC_
 
 
         }
+
+
+        //Task(2)
+        public static void PrintReport(List<Product> products, Action<Product> printer)
+        {
+            foreach (var product in products)
+            {
+                printer(product);
+            }
+        }
     }
 }

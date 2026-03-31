@@ -34,7 +34,31 @@
             //        Product.PrintProducts("In Stock", inStock);
             //        Product.PrintProducts("Clothing < 100", clothingUnder100); 
             #endregion
-        }
 
+
+            #region Task02
+            //        List<Product> catalog = new List<Product>
+            //{
+            //    new Product{Id=1,Name="Laptop",Category="Electronics",Price=1200,Stock=10},
+            //    new Product{Id=2,Name="Phone",Category="Electronics",Price=800,Stock=25},
+            //    new Product{Id=3,Name="T-shirt",Category="Clothing",Price=30,Stock=100},
+            //    new Product{Id=4,Name="jeans",Category="Clothing",Price=60,Stock=50},
+            //    new Product{Id=5,Name="Chocolate",Category="Food",Price=5,Stock=200}
+            //   };
+
+            //        // Scenario 1: Short Report
+            //        Console.WriteLine("\n--- Short Report ---");
+            //        Product.PrintReport(catalog, p => Console.WriteLine($"{p.Name} - ${p.Price}"));
+
+
+            //        // Scenario 2: Detailed Report
+            //        Console.WriteLine("\n--- Detailed Report ---");
+            //        Product.PrintReport(catalog, p =>
+            //            Console.WriteLine($"[{p.Category}] {p.Name} | Price: ${p.Price} | Stock: {p.Stock}")
+            //        );
+            #endregion
+
+        }
     }
-    }
+
+}
