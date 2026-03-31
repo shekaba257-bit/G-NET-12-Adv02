@@ -84,6 +84,40 @@
             //    Console.WriteLine($"[{p.Category}] {p.Name} | Price: ${p.Price} | Stock: {p.Stock}")
             //);
             #endregion
+            #region Task(03.2)
+            //        List<Product> catalog = new List<Product>
+            //{
+            //    new Product{Id=1,Name="Laptop",Category="Electronics",Price=1200,Stock=10},
+            //    new Product{Id=2,Name="Phone",Category="Electronics",Price=800,Stock=25},
+            //    new Product{Id=3,Name="T-shirt",Category="Clothing",Price=30,Stock=100},
+            //    new Product{Id=4,Name="jeans",Category="Clothing",Price=60,Stock=50},
+            //    new Product{Id=5,Name="Chocolate",Category="Food",Price=5,Stock=200}
+            //};
+
+
+            //        var summaryList = Product.TransformProducts(catalog,
+            //            p => $"{p.Name} (${p.Price})"
+            //        );
+
+            //        Console.WriteLine("=== Summary List ===");
+            //        foreach (var item in summaryList)
+            //        {
+            //            Console.WriteLine(item);
+            //        }
+
+
+            //        var priceLabels = Product.TransformProducts(catalog,
+            //            p => $"{p.Name}: {(p.Price > 100 ? "Expensive!" : "Affordable")}"
+            //        );
+
+            //        Console.WriteLine("\n=== Price Labels ===");
+            //        foreach (var item in priceLabels)
+            //        {
+            //            Console.WriteLine(item);
+            //        }
+           
+            #endregion
+
         }
     }
 

@@ -53,14 +53,25 @@ namespace Assignment_Session02_AdvencedC_
 
         //Task(3)
 
-        public static void PrintReport(List<Product> products, Action<Product> action)
+        //public static void PrintReport(List<Product> products, Action<Product> action)
+        //{
+        //    foreach (var product in products)
+        //    {
+        //        action(product);
+        //    }
+        //}
+
+        //Task(3.2)
+        public static List<T> TransformProducts<T>(List<Product> products, Func<Product, T> transformer)
         {
+            List<T> result = new List<T>();
+
             foreach (var product in products)
             {
-                action(product);
+                result.Add(transformer(product));
             }
+
+            return result;
         }
-
-
     }
 }
